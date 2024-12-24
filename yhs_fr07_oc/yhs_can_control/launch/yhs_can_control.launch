@@ -1,0 +1,8 @@
+<!--yhs-->
+<launch>
+    <!--底盘订阅的速度话题名称-->
+    <node pkg="yhs_can_control" type="yhs_can_control_node" name="yhs_can_control_node" output="screen">
+    </node>
+
+</launch>
+
